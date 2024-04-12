@@ -1,0 +1,252 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans" , sans-serif;
+}
+body {
+    background: #060e1c ;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 33px 0;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.header-logo h1{
+    color: rgb(58, 104, 184);
+    font-size: 23px;
+    font-weight: 600;
+}
+.header-nav a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.header-btn {
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: rgb(58, 104, 184);
+    padding: 15px 30px;
+}
+.hero-titl h5{
+    color: rgb(58, 104, 184);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.hero-titl h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    text-align: left;
+}
+.hero-titl p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    /* #FFFFFF */
+    opacity: 0.7;
+
+}
+.hero-aplle{
+    padding: 102px 70px;
+}
+.hero-btn button {
+    border-radius: 5px;
+    background: rgb(58, 104, 184);
+    padding: 15px 30px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-aplle {
+    display: flex;
+    justify-content: space-around;
+}
+.bingo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bingo-tittie{
+    padding: 50px 20px;
+}
+.bingo-tittie h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+}
+.bingo-tittie h6 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    /* #FFFFFF */
+    opacity: 0.7;
+
+}
+
+.bingo button {
+    background: #3a67b7;
+    padding: 10px 15px ;
+    border-radius: 5px;
+}
+.auto {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+
+.auto h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    /* #FFFFFF */
+    opacity: 0.7;
+
+}
+.auto h6 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: center;
+    /* #FFFFFF */
+    opacity: 0.7;
+
+}
+.auto-tittle{
+    border-radius: 10px;
+    background: #0f1624;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+
+}
+.auto img{
+ padding: 0 50px;
+}
+.auto-one{
+    border-radius: 10px;
+    background: #0f1624;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+}
+.auto-two{
+    border-radius: 10px;
+    background: #0f1624;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.apple {
+   padding: 70px 0;
+}
+.apple-tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.apple-tittle h6{
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.apple-tittle h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+}
+.footer h4 {
+
+}
+.footer-two a{
+    color: rgb(255, 255, 255);
+    font-family: 'Circular Std' , sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    ;
+    text-align: left;
+}
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-two h4 {
+ color: #174d85
+}
+.footer-two h6 {
+color: #686c75;
+}
+.footer-one h3{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+.footer-one h6 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    text-align: left;
+    /* #FFFFFF */
+    opacity: 0.6;
+
+}
+.footer-six a{
+   color: aliceblue;
+    /* #FFFFFF */
+    opacity: 0.6;
+    padding: 0 8px;
+}
